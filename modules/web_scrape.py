@@ -21,7 +21,7 @@ def initializeChromeDriver(web_page: str):
     except:
         path = os.environ["PATH"]
         logging.error(f"[ERROR] Chrome driver not found in $PATH variable")
-        logging.info(f"[INFO] Please add it to one of the following locations of the PATH variable: {path}")
+        logging.info(f"[INFO] Please add it to one of the following locations of the $PATH variable: {path}")
         exit(1)
     
 def testLogin(username_cred :str, password_cred: str):

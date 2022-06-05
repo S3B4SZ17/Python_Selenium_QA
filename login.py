@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from modules import web_scrape
 import argparse
 
